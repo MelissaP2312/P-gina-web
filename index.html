@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Melissa Carolina Palma Sosa">
+    <link rel="stylesheet" href="styles.css">
+    <title>Trivia</title>
+  </head>
+  <body>
+    <div id="inicio">
+      <h1>Bienvenidos a la Trivia</h1>
+      <p>Haz clic en el botón para comenzar</p>
+      <button id="botoninicio" class="botonesaccion">Comenzar</button>
+    </div>
+
+    <div id="categorias" style="display: none;">
+      <div id="seleccion">
+        <h1>Selecciona una categoría:</h1>
+        <p>Recuerda verificar tus respuestas antes de avanzar</p>
+        <button id="botonlibros" class="botoncategorias">Literatura</button>
+        <button id="botonf1" class="botoncategorias">Fórmula 1</button>
+        <button id="botonpelis" class="botoncategorias">Películas</button>
+      </div>
+    </div>
+
+    <div id="juego" style="display: none;">
+      <div id="pantallajuego" style="display: none;">
+        <p id="preguntas"></p>
+        <input type="text" id="respuestas" placeholder="Escribe tu respuesta aquí">
+        <div id="botonesradio" style="display: none;"></div>
+        <div id="emparejar" style="display: none;">
+          <div class="column" id="column1">
+          </div>
+          <div class="column" id="column2">
+          </div>
+        </div>
+        <button id="botonverificar" class="botonesaccion" style="display: none;">Verificar</button>
+        <button id="botonsig" class="botonesaccion" style="display: none;">Siguiente</button>
+      </div>
+      <div id="fin" style="display: none;">
+        <h1>Felicidades, terminaste</h1>
+        <p>¡Espero que te divertieras!</p>
+        <p>Puntuación: <span id="puntuacion"></span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

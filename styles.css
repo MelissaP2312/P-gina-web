@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(fondo3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center-screen {
+    text-align: center;
+}
+  
+.botonesaccion{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: block; 
+    background-color: #3A8FE3;
+    color: #fff;
+}
+.botonesaccion:hover{
+    transform: scale(1.1);
+}
+
+
+.botoncategorias {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: #3A8FE3;
+    color: #fff;
+}
+.botoncategorias:hover{
+    transform: scale(1.1);
+}
+
+#pantallajuego img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+  
+#categorias h1 {
+    margin-bottom: 20px;
+}
+
+  
+#juego {
+    text-align: center;
+}
+  
+#start-screen, #fin, #seleccion, #inicio {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#emparejar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color:#F9F8F8; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 15px;
+}
+
+.matching-item {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    cursor: move;
+    border-radius: 8px;
+    background-color: #fff; 
+}
+
+.column {
+    border: 2px #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.column.over {
+    background-color: #f0f0f0;
+}
+
+#preguntas {
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px; 
+    background-color: #fff;
+}
+
+#respuestas {
+    width: 80%; 
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#botonesradio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+#botonesradio label {
+    margin-right: 40px;
+}
+
+.matching-item, .matching-item.incorrect {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    cursor: move;
+    border-radius: 4px;
+    background-color: #fff;
+}
